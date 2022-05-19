@@ -1,0 +1,10 @@
+server:
+  port: 9091
+spring: 
+  rabbitmq:
+    host: 134.209.17.228
+free:
+  broker:
+    rabbitmq:
+      queueName: transaction_queue
+      directExchangeName: transaction_exchange
